@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('ingridi-alves-photograph-yePWDGPUWO0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+}
+
+.input {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+    Arial, sans-serif;
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: darkolivegreen;
+}
+
+kbd {
+    display: block;
+}
